@@ -1,9 +1,9 @@
 <?php
 date_default_timezone_set('Singapore');
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "fypATK";
+$db_host = "fyprds.cvc45aykghor.us-east-1.rds.amazonaws.com";
+$db_user = "admin";
+$db_pass = "cloudfyp";
+$db_name = "cloud_fyp";
 $link = mysqli_connect($db_host, $db_user, $db_pass, $db_name) or die(mysqli_connect_error());
 
 // Create a secure database connection
